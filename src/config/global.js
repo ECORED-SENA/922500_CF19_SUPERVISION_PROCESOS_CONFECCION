@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Lean Six Sigma',
+    descripcionCurso:
+      'Este componente aborda aspectos generales y claves de la metodología Lean Six Sigma, la cual mejora los procesos para incrementar ganancias y productividad. Con su estudio responsable, El aprendiz se afianzará en el uso de herramientas estadísticas que identifican y disminuyen la variabilidad de los procesos de producción, en el área de la confección, ajustados a necesidades de la compañía y del cliente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
       },
     ],
   },
@@ -31,27 +40,25 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Orígenes de Lean Six Sigma',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodología Lean Six Sigma',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Indicadores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tableros de control',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +109,132 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Metodología Lean Six Sigma',
+      referencia: 'Torres, J. (2020). Histograma. [Video] YouTube. ',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=lyrg9Sh5rfU',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Metodología Lean Six Sigma',
+      referencia: 'Torres, J. (2020). Diagrama de Pareto. [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://youtu.be/RCi8RaO0lco',
+    },
+    {
+      tema: 'Metodología Lean Six Sigma',
+      referencia: 'Torres, J. (2020). Diagrama Causa Efecto. [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=vsBkfe0oN30',
+    },
+    {
+      tema: 'Metodología Lean Six Sigma',
+      referencia: 'Torres, J. (2020). Estratificación. [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=lyrg9Sh5rfU',
+    },
+    {
+      tema: 'Metodología Lean Six Sigma',
+      referencia:
+        'Lucidchart (s.f.). Iconos y símbolos de mapas de flujo de valor. Lucidchart',
+      tipo: 'Página web',
+      link:
+        'https://www.lucidchart.com/pages/es/iconos-y-simbolos-de-mapas-de-flujo-de-valor/#section_0',
+    },
+    {
+      tema: 'Metodología Lean Six Sigma',
+      referencia:
+        'Soy Genio (2020) ¿cómo elaborar un VSM desde cero? [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://youtu.be/KhBdQekPSS8',
+    },
+    {
+      tema: 'Indicadores',
+      referencia:
+        'QTS Learning (2019) Índices de Productividad, Eficiencia y Eficacia. [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=IFnfBQ-gnu0',
+    },
+    {
+      tema: 'Tableros de control',
+      referencia:
+        'Microsoft Excel a todo nivel (2018) Dashboard en Excel? | ¿Qué es un Dashboard? ¿Cómo se hace en Excel? Tableros interactivos | Parte 1. [Video] YouTube.',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=_E5FIOwFz4w',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Desperdicios',
+      significado:
+        'los MUDA, término japonés que significa “inutilidad; ociosidad; superfluo; residuos; despilfarro”, son 7 conceptos que se aplicaron inicialmente por el ingeniero Taiichi Ohno, autor del archiconocido <i>just intime</i> el Sistema de producción de Toyota.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Diagrama de flujo',
+      significado:
+        'diagrama de flujo es un diagrama que describe un proceso, sistema o algoritmo informático. Se usan ampliamente en numerosos campos para documentar.',
+    },
+    {
+      termino: 'Diagrama de Flujo por Bloques',
+      significado:
+        'diagrama de bloques es la representación del funcionamiento interno de un sistema, que se hace mediante bloques y sus relaciones, y que, además, definen la organización de todo el proceso interno, sus entradas y sus salidas.',
+    },
+    {
+      termino: 'Diagrama SIPOC',
+      significado:
+        'un diagrama SIPOC sirve para documentar los Proveedores (Suppliers), Entradas (Inputs), Procesos (Process), Salidas (Outputs) y Clientes (Customers) en una operación. Una lista de estos elementos ayuda a marcar los límites de un proceso a un alto nivel. El diagrama se usa para proveer a quienes toman las decisiones con información crucial sobre todo el proceso, pero sin entrar en mayores detalles.',
+    },
+    {
+      termino: 'Kaizen',
+      significado:
+        'la palabra Kaizen significa «mejora», un cambio beneficioso que se alcanza paso a paso.',
+    },
+    {
+      termino: 'Kanban',
+      significado:
+        'se define como «un sistema de producción altamente efectivo y eficiente, ha contribuido a generar un panorama manufacturero óptimo y competitivo.',
+    },
+    {
+      termino: 'Lead Time',
+      significado:
+        'hace referencia al tiempo que discurre desde que se genera una orden de pedido a un proveedor hasta que se entrega la mercancía de ese proveedor al cliente.',
+    },
+    {
+      termino: 'SMED',
+      significado:
+        'SMED (Single Minute Exchange of Die, o cambio de matriz en menos de 10 minutos) es una técnica que permite grandes reducciones en los tiempos de set up (tiempo entre última pieza buena de lote anterior y primera buena del siguiente), permitiendo trabajar en lotes más pequeños.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ambriz C (2014) Curso De Indicadores De Gestión. (s/f). Slideplayer.es.',
+      link: 'https://slideplayer.es/slide/155761/',
+    },
+    {
+      referencia:
+        'Crisóstomo, M., & Sánchez, A (2018). Propuesta de mejora en la confección de ropa de vestir femenina de una pyme mediante la aplicación de la metodología lean six sigma y herramientas VSM,5S y la distribución de planta [Tesis Pontificia Universidad Católica del Perú].',
+      link: 'http://hdl.handle.net/20.500.12404/13982',
+    },
+    {
+      referencia:
+        'García, M (2019) . Herramientas del Lean Six Sigma: la metodología para la excelencia operacional APD.ES',
+      link: 'https://www.apd.es/herramientas-del-lean-six-sigma/',
+    },
+    {
+      referencia:
+        'Paulise L (2017) Todo sobre tablero de control Ronin Consultoría.',
+      link:
+        'https://qualityway.wordpress.com/2017/10/12/todo-sobre-tablero-de-control-por-luciana-paulise/',
+    },
+    {
+      referencia:
+        'Planning, Consultores gerenciales (s/f). Indicadores De Efectividad Y Eficacia.',
+      link: 'http://www.planning.com.co/bd/valor_agregado/Octubre1998.pdf',
+    },
+    {
+      referencia:
+        'Sánchez M. (2020 7 agosto). Las 25 herramientas LEAN [Web log post]. Todo proyectos.com',
+      link: 'https://todoproyectos.com/?s=herramientas+lean+',
     },
   ],
   creditos: [
@@ -151,8 +258,29 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jenny Patricia Torres Sarmiento',
+          cargo: 'Experta temática',
+          centro: 'Regional Antioquía - Diseño, confección y moda',
+        },
+        {
+          nombre: 'Vilma L Perilla Méndez',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital – Centro de gestión Industrial',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -162,13 +290,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -180,7 +308,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
