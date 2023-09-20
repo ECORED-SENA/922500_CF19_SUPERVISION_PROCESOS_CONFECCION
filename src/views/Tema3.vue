@@ -94,7 +94,12 @@
     p(data-aos="fade-down") En este caso esta clasificación tiene que ver con el objetivo del indicador dentro de la empresa, muchas veces confundimos los términos eficiente y eficaz, sin embargo, sus definiciones son distintas, su uso en conversaciones cotidianas se refiere muchas veces al desempeño de una persona o un líder.
 
     p(data-aos="fade-down").mb-5 Enseguida, detalle la diferencia en donde se muestra la escala de valoración cuando se es eficaz y cuando se es eficiente:
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/22.svg', alt='Este esquema cruza los conceptos de eficacia y eficiencia, y sus niveles, en cuatro recuadros: Recuadro uno, muy eficiente y poco eficaz, cuando se administran bien los recursos pero no se llega a los objetivos. Recuadro dos, Muy eficiente y muy eficaz, cuando se llega a los objetivos y se administran bien los recursos. Recuadro tres, poco eficiente y poco eficaz, cuando no se llega a los objetivos ni se administran bien los recursos. Recuadro cuatro, poco eficiente y muy eficaz, cuando se llega a los objetivos sin medir los recursos para alcanzarlos.')
+    .row.justify-content-center 
+      .col-auto    
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5.
+          span Clasificación según objetivo     
+        img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/22.svg', alt='Este esquema cruza los conceptos de eficacia y eficiencia, y sus niveles, en cuatro recuadros: Recuadro uno, muy eficiente y poco eficaz, cuando se administran bien los recursos pero no se llega a los objetivos. Recuadro dos, Muy eficiente y muy eficaz, cuando se llega a los objetivos y se administran bien los recursos. Recuadro tres, poco eficiente y poco eficaz, cuando no se llega a los objetivos ni se administran bien los recursos. Recuadro cuatro, poco eficiente y muy eficaz, cuando se llega a los objetivos sin medir los recursos para alcanzarlos.')
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -104,7 +109,7 @@
               p(data-aos="fade-down").mb-0 Dependiendo del objetivo, los indicadores se podrán clasificar en indicadores de eficacia, eficiencia, y efectividad, así:   
             .col-lg-6.my-3
               .titulo-sexto.color-acento-contenido
-                h5 Figura 5.
+                h5 Figura 6.
                 span Indicadores de eficacia, eficiencia y efectividad 
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.svg', alt='Esquema que detalla los indicadores de eficiencia, eficacia y efectividad en tres columnas: Primer columna - Eficacia: se pregunta por el qué, en términos del cumplimiento de metas. Segunda columna - Eficiencia: se pregunta por el cómo, en términos del uso de los recursos. Tercer columna - Efectividad: se pregunta por el para qué, en términos del impacto de los resultados.')
 
