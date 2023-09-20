@@ -165,7 +165,7 @@
             tbody
               tr
                 td(rowspan='4')
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg', alt='')                 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg', alt='Fórmula de eficiencia: eficiencia es igual a unidades producidas, sobre unidades programadas, por cien.')                 
 
                 td.w-80 Materiales
                 td(rowspan='4') Dentro de la planta podemos ver diferentes mediciones, a nivel de planta, a nivel de producto, a nivel de módulo o línea, e incluso por operario.
@@ -178,7 +178,7 @@
 
               tr
                 td(rowspan='5')
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='')                 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='Fórmula de eficacia: eficacia es igual a unidades producidas aceptadas, sobre unidades programadas, por cien.')                 
 
                 td.w-80 Calidad
                 td(rowspan='5')
@@ -193,7 +193,7 @@
                 td.w-80 Confiabilidad
               tr
                 td(rowspan='2')
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.svg', alt='')                 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.svg', alt='Fórmula de efectividad: efectividad es igual a eficiencia por eficacia.')                 
 
                 td.w-80 Eficiencia
                 td(rowspan='2')
