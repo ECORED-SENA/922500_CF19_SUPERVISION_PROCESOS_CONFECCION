@@ -10,8 +10,8 @@
     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/29.png', alt='')      
     .row.justify-content-center.align-items-center
       .col-10.img-text.d-none.d-lg-block(data-aos="flip-down")
-        p.p-3.mb-0 También conocidos como Dashboard, son utilizados en la metodología #[b.t1 lean Six Sigma] con el objetivo de visibilizar en comportamiento de los procesos en general, a través de la generación de información en tiempo real de los indicadores clave de desempeño de las diferentes áreas de la empresa y, así, determinar los puntos críticos de control de la empresa y dónde es necesario la intervención oportuna de la metodología. 
-    p.bg-p1.p-3.mb-0.d-block.d-lg-none También conocidos como Dashboard, son utilizados en la metodología #[b.t1 lean Six Sigma] con el objetivo de visibilizar en comportamiento de los procesos en general, a través de la generación de información en tiempo real de los indicadores clave de desempeño de las diferentes áreas de la empresa y, así, determinar los puntos críticos de control de la empresa y dónde es necesario la intervención oportuna de la metodología.
+        p.p-3.mb-0 También conocidos como #[i Dashboard], son utilizados en la metodología #[b.t1 #[i Lean Six Sigma]] con el objetivo de visibilizar en comportamiento de los procesos en general, a través de la generación de información en tiempo real de los indicadores clave de desempeño de las diferentes áreas de la empresa y, así, determinar los puntos críticos de control de la empresa y dónde es necesario la intervención oportuna de la metodología. 
+    p.bg-p1.p-3.mb-0.d-block.d-lg-none También conocidos como #[i Dashboard], son utilizados en la metodología #[b.t1 #[i Lean Six Sigma]] con el objetivo de visibilizar en comportamiento de los procesos en general, a través de la generación de información en tiempo real de los indicadores clave de desempeño de las diferentes áreas de la empresa y, así, determinar los puntos críticos de control de la empresa y dónde es necesario la intervención oportuna de la metodología.
 
     .row.justify-content-center.align-items-center
       .col-lg-5.my-3

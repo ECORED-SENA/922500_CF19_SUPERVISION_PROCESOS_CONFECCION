@@ -10,8 +10,8 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Profundizando en Lean Six Sigma 
-        p.mb-4 Profundizar en los aspectos y elementos clave de la metodología Lean Six Sigma, específicamente “Los Indicadores”, con base en los contenidos desarrollados en el componente formativo. 
+          h2 Profundizando en #[i Lean Six Sigma] 
+        p.mb-4 Profundizar en los aspectos y elementos clave de la metodología #[i Lean Six Sigma], específicamente “Los Indicadores”, con base en los contenidos desarrollados en el componente formativo. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

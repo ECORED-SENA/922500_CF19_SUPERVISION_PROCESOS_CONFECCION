@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-7.my-3
         p(data-aos="fade-down") Las empresas de confección se reconocen por tener índices de medición bien estructurados que permiten medir la productividad de área de la empresa y aumentar los estándares de calidad para así mismo satisfacer las necesidades de los clientes. Es así como dentro de la empresa los indicadores determinan el estado del proceso y permiten mejorar, identificar puntos críticos o áreas de oportunidad. 
-        p(data-aos="fade-down") Los indicadores tienden a establecerse dependiendo los tipos de procesos que hay al interior de la empresa y así mismo se determinan los tipos de indicadores. Dentro de la metodología Lean Six Sigma, construir indicadores que permitan medir el impacto de la mejora determina la viabilidad del proyecto y la continuidad de la implementación de las actividades.     
+        p(data-aos="fade-down") Los indicadores tienden a establecerse dependiendo los tipos de procesos que hay al interior de la empresa y así mismo se determinan los tipos de indicadores. Dentro de la metodología #[i Lean Six Sigma], construir indicadores que permitan medir el impacto de la mejora determina la viabilidad del proyecto y la continuidad de la implementación de las actividades.     
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/19.png', alt='')                      
 
@@ -33,8 +33,12 @@
                   p Los indicadores deben tener ciertas características que faciliten su comprensión y uso, por lo tanto, estos deben ser claros, prácticos, explícitos, deben permitir obtener información a tiempo y, por último, su resultado debe ser verificable. 
               .row.justify-content-center
                 .col-md-11
-                  h4.t1 Los indicadores podrán 
-                  ul.lista-ul.my-5.fa-ul(data-aos="fade-left")
+                  h4.t1 Importancia de los indicadores  
+                  p En la planta, conocer el avance de la producción es vital para reaccionar y tomar decisiones a tiempo ya que la confección de prendas tiene innumerables variables que podrían obstaculizar el cumplimiento ideal de los tiempos de entrega; estas variables se conocen al interior de la planta como tiempos muertos o tiempos improductivos, que se pueden generar por diferentes causas en el día a día. 
+              .row.justify-content-center
+                .col-md-11
+                  h4.t1.pt-3 Los indicadores podrán 
+                  ul.lista-ul.fa-ul(data-aos="fade-left")
                     li 
                       i.fas.fa-tshirt.c1
                       p.mb-0 Apoyar los procesos de planeación. 
@@ -52,11 +56,7 @@
                       p.mb-0 Ofrecer transparencia en la trazabilidad de los procesos. 
                     li 
                       i.fas.fa-tshirt.c1
-                      p.mb-0 Ayudar a la generación de incentivos de las áreas o personas en concreto. 
-              .row.justify-content-center
-                .col-md-11
-                  h4.t1 Importancia de los indicadores  
-                  p En la planta, conocer el avance de la producción es vital para reaccionar y tomar decisiones a tiempo ya que la confección de prendas tiene innumerables variables que podrían obstaculizar el cumplimiento ideal de los tiempos de entrega; estas variables se conocen al interior de la planta como tiempos muertos o tiempos improductivos, que se pueden generar por diferentes causas en el día a día.                                                      
+                      p.mb-0 Ayudar a la generación de incentivos de las áreas o personas en concreto.                                                                        
     .row.justify-content-start.mb-3.pt-5     
       .col-auto.bg3.p-0.pe-4.up(data-aos="flip-down")
         .list.mb-1
@@ -72,12 +72,12 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/21.svg', alt='')
       .col-lg-6.my-3(data-aos="fade-left")       
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")
+          .row.justify-content-center(titulo="Nivel Estratégico")
+            .col-md-12
+              p Estos están atados directamente a la planificación estratégica de la empresa y marcan el futuro que se espera. Por esta razón, están relacionados a la misión y visión establecida, la misión es el propósito de la empresa para existir y explica las razones por las cuales fue creada. La visión retrata lo que la organización quiere ser en el futuro. Un ejemplo de estos podría ser un indicador relacionado con las ventas de prendas de vestir, en donde el objetivo de este seria aumentar en un 15 %.         
           .row.justify-content-center(titulo="Nivel Táctico")
             .col-md-12
               p Una vez que se sabe lo que la empresa quiere para los próximos 5 o 10 años, el siguiente paso es determinar cómo cada área contribuirá a lograr estos objetivos. La planificación táctica corresponde a un plan de acción que debe llevarse a cabo en un plazo de uno a tres años y debe estar completamente alineado con la planificación estratégica. Teniendo en cuenta el ejemplo anterior en donde se enmarcaba un objetivo estratégico sobre ventas, en este caso para aliñarse con este tendríamos que crear uno como la cantidad de locales comerciales para ofrecer los productos, así mismo el objetivo de este seria aumentarla. 
-          .row.justify-content-center(titulo="Nivel Estratégico")
-            .col-md-12
-              p Estos están atados directamente a la planificación estratégica de la empresa y marcan el futuro que se espera. Por esta razón, están relacionados a la misión y visión establecida, la misión es el propósito de la empresa para existir y explica las razones por las cuales fue creada. La visión retrata lo que la organización quiere ser en el futuro. Un ejemplo de estos podría ser un indicador relacionado con las ventas de prendas de vestir, en donde el objetivo de este seria aumentar en un 15%. 
           .row.justify-content-center(titulo="Nivel Operativo")
             .col-md-12
               p Estos están estrechamente vinculados a los procesos y la operación de la empresa en su conjunto. Los indicadores operativos se asignan a los equipos de trabajo o a las personas directamente, involucrando a cada empleado de la empresa de tal manera que contribuyan activamente a los objetivos estratégicos de la organización, para seguir con nuestro ejemplo en este caso propondremos un indicador operativo como el número de productos fabricados por módulo o por persona, en donde también tendría como objetivo aumentar, para asegurar el cumplimiento de los indicadores tácticos y estratégicos.
@@ -94,7 +94,7 @@
     p(data-aos="fade-down") En este caso esta clasificación tiene que ver con el objetivo del indicador dentro de la empresa, muchas veces confundimos los términos eficiente y eficaz, sin embargo, sus definiciones son distintas, su uso en conversaciones cotidianas se refiere muchas veces al desempeño de una persona o un líder.
 
     p(data-aos="fade-down").mb-5 Enseguida, detalle la diferencia en donde se muestra la escala de valoración cuando se es eficaz y cuando se es eficiente:
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/22.svg', alt='')
+    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/22.svg', alt='Este esquema cruza los conceptos de eficacia y eficiencia, y sus niveles, en cuatro recuadros: Recuadro uno, muy eficiente y poco eficaz, cuando se administran bien los recursos pero no se llega a los objetivos. Recuadro dos, Muy eficiente y muy eficaz, cuando se llega a los objetivos y se administran bien los recursos. Recuadro tres, poco eficiente y poco eficaz, cuando no se llega a los objetivos ni se administran bien los recursos. Recuadro cuatro, poco eficiente y muy eficaz, cuando se llega a los objetivos sin medir los recursos para alcanzarlos.')
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -106,7 +106,7 @@
               .titulo-sexto.color-acento-contenido
                 h5 Figura 5.
                 span Indicadores de eficacia, eficiencia y efectividad 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.svg', alt='')
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.svg', alt='Esquema que detalla los indicadores de eficiencia, eficacia y efectividad en tres columnas: Primer columna - Eficacia: se pregunta por el qué, en términos del cumplimiento de metas. Segunda columna - Eficiencia: se pregunta por el cómo, en términos del uso de los recursos. Tercer columna - Efectividad: se pregunta por el para qué, en términos del impacto de los resultados.')
 
     p(data-aos="fade-down").mb-5 Estas son las especificaciones de cada uno de los tres tipos de indicadores (eficacia, eficiencia y efectividad):
 
@@ -121,7 +121,7 @@
               p Eficacia es el grado en que se logran los objetivos y metas de la empresa, es decir, cuántos de los resultados esperados se alcanzaron. La eficacia consiste en concentrar los esfuerzos de una empresa en las actividades y procesos que realmente deben llevarse a cabo para el cumplimiento de los objetivos formulados. 
 
               p Algunos ejemplos en la empresa de confección tendremos:
-              ul.lista-ul.my-5.fa-ul
+              ul.lista-ul.my-3.fa-ul
                 li 
                   i.fas.fa-tshirt.c1
                   p.mb-0 Satisfacción del cliente.
@@ -136,7 +136,7 @@
           .row.justify-content-center(titulo="De eficiencia")
             .col-md-12
               p Una definición de eficiencia es el logro de un objetivo al menor costo unitario posible. En este caso estamos buscando un uso óptimo de los recursos disponibles para lograr los objetivos deseados. Algunos ejemplos de este tipo de indicador son:
-              ul.lista-ul.my-5.fa-ul
+              ul.lista-ul.my-3.fa-ul
                 li 
                   i.fas.fa-tshirt.c1
                   p.mb-0 Cobertura. 
@@ -216,7 +216,7 @@
 
         p(data-aos="fade-down") A continuación, se presentan algunos conceptos relacionados: 
 
-        ul.lista-ul.my-5.fa-ul
+        ul.lista-ul.my-3.fa-ul
           li 
             i.fas.fa-tshirt.c1
             p.mb-0 #[b.t1 Indicador:] es una expresión matemática que muestra el comportamiento de alguna variable en el tiempo.

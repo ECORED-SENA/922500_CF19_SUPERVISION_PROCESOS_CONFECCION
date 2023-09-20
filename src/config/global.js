@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Lean Six Sigma',
+    componenteFormativo: '<i>Lean Six Sigma</i>',
     descripcionCurso:
-      'Este componente aborda aspectos generales y claves de la metodología Lean Six Sigma, la cual mejora los procesos para incrementar ganancias y productividad. Con su estudio responsable, El aprendiz se afianzará en el uso de herramientas estadísticas que identifican y disminuyen la variabilidad de los procesos de producción, en el área de la confección, ajustados a necesidades de la compañía y del cliente.',
+      'Este componente aborda aspectos generales y claves de la metodología <i>Lean Six Sigma</i>, la cual mejora los procesos para incrementar ganancias y productividad. Con su estudio responsable, El aprendiz se afianzará en el uso de herramientas estadísticas que identifican y disminuyen la variabilidad de los procesos de producción, en el área de la confección, ajustados a necesidades de la compañía y del cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -40,13 +40,13 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Orígenes de Lean Six Sigma',
+        titulo: 'Orígenes de <i>Lean Six Sigma</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Metodología Lean Six Sigma',
+        titulo: 'Metodología <i>Lean Six Sigma</i>',
         desarrolloContenidos: true,
       },
       {
@@ -109,31 +109,31 @@ export default {
   },
   complementario: [
     {
-      tema: 'Metodología Lean Six Sigma',
-      referencia: 'Torres, J. (2020). Histograma. [Video] YouTube. ',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
+      referencia: 'Torres, J. (2020). Histograma.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=lyrg9Sh5rfU',
     },
     {
-      tema: 'Metodología Lean Six Sigma',
-      referencia: 'Torres, J. (2020). Diagrama de Pareto. [Video] YouTube.',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
+      referencia: 'Torres, J. (2020). Diagrama de Pareto.',
       tipo: 'Video YouTube',
       link: 'https://youtu.be/RCi8RaO0lco',
     },
     {
-      tema: 'Metodología Lean Six Sigma',
-      referencia: 'Torres, J. (2020). Diagrama Causa Efecto. [Video] YouTube.',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
+      referencia: 'Torres, J. (2020). Diagrama Causa Efecto.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=vsBkfe0oN30',
     },
     {
-      tema: 'Metodología Lean Six Sigma',
-      referencia: 'Torres, J. (2020). Estratificación. [Video] YouTube.',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
+      referencia: 'Torres, J. (2020). Estratificación.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=lyrg9Sh5rfU',
     },
     {
-      tema: 'Metodología Lean Six Sigma',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
       referencia:
         'Lucidchart (s.f.). Iconos y símbolos de mapas de flujo de valor. Lucidchart',
       tipo: 'Página web',
@@ -141,23 +141,22 @@ export default {
         'https://www.lucidchart.com/pages/es/iconos-y-simbolos-de-mapas-de-flujo-de-valor/#section_0',
     },
     {
-      tema: 'Metodología Lean Six Sigma',
-      referencia:
-        'Soy Genio (2020) ¿cómo elaborar un VSM desde cero? [Video] YouTube.',
+      tema: 'Metodología <i>Lean Six Sigma</i>',
+      referencia: 'Soy Genio (2020) ¿cómo elaborar un VSM desde cero?',
       tipo: 'Video YouTube',
       link: 'https://youtu.be/KhBdQekPSS8',
     },
     {
       tema: 'Indicadores',
       referencia:
-        'QTS Learning (2019) Índices de Productividad, Eficiencia y Eficacia. [Video] YouTube.',
+        'QTS Learning (2019) Índices de Productividad, Eficiencia y Eficacia.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=IFnfBQ-gnu0',
     },
     {
       tema: 'Tableros de control',
       referencia:
-        'Microsoft Excel a todo nivel (2018) Dashboard en Excel? | ¿Qué es un Dashboard? ¿Cómo se hace en Excel? Tableros interactivos | Parte 1. [Video] YouTube.',
+        'Microsoft Excel a todo nivel (2018) Dashboard en Excel? | ¿Qué es un Dashboard? ¿Cómo se hace en Excel? Tableros interactivos | Parte 1.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=_E5FIOwFz4w',
     },
@@ -181,12 +180,12 @@ export default {
     {
       termino: 'Diagrama SIPOC',
       significado:
-        'un diagrama SIPOC sirve para documentar los Proveedores (Suppliers), Entradas (Inputs), Procesos (Process), Salidas (Outputs) y Clientes (Customers) en una operación. Una lista de estos elementos ayuda a marcar los límites de un proceso a un alto nivel. El diagrama se usa para proveer a quienes toman las decisiones con información crucial sobre todo el proceso, pero sin entrar en mayores detalles.',
+        'un diagrama SIPOC sirve para documentar los Proveedores (<i>Suppliers</i>), Entradas (<i>Inputs</i>), Procesos (<i>Process</i>), Salidas (<i>Outputs</i>) y Clientes (<i>Customers</i>) en una operación. Una lista de estos elementos ayuda a marcar los límites de un proceso a un alto nivel. El diagrama se usa para proveer a quienes toman las decisiones con información crucial sobre todo el proceso, pero sin entrar en mayores detalles.',
     },
     {
-      termino: 'Kaizen',
+      termino: '<i>Kaizen</i>',
       significado:
-        'la palabra Kaizen significa «mejora», un cambio beneficioso que se alcanza paso a paso.',
+        'la palabra <i>Kaizen</i> significa «mejora», un cambio beneficioso que se alcanza paso a paso.',
     },
     {
       termino: 'Kanban',
@@ -194,14 +193,14 @@ export default {
         'se define como «un sistema de producción altamente efectivo y eficiente, ha contribuido a generar un panorama manufacturero óptimo y competitivo.',
     },
     {
-      termino: 'Lead Time',
+      termino: '<i>Lead Time</i>',
       significado:
         'hace referencia al tiempo que discurre desde que se genera una orden de pedido a un proveedor hasta que se entrega la mercancía de ese proveedor al cliente.',
     },
     {
       termino: 'SMED',
       significado:
-        'SMED (Single Minute Exchange of Die, o cambio de matriz en menos de 10 minutos) es una técnica que permite grandes reducciones en los tiempos de set up (tiempo entre última pieza buena de lote anterior y primera buena del siguiente), permitiendo trabajar en lotes más pequeños.',
+        'SMED (<i>Single Minute Exchange of Die</i>, o cambio de matriz en menos de 10 minutos) es una técnica que permite grandes reducciones en los tiempos de <i>set up</i> (tiempo entre última pieza buena de lote anterior y primera buena del siguiente), permitiendo trabajar en lotes más pequeños.',
     },
   ],
   referencias: [
@@ -250,7 +249,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -260,29 +259,29 @@ export default {
         {
           nombre: 'Jenny Patricia Torres Sarmiento',
           cargo: 'Experta temática',
-          centro: 'Regional Antioquía - Diseño, confección y moda',
+          centro: 'Diseño, confección y moda - Regional Antioquía',
         },
         {
           nombre: 'Vilma L Perilla Méndez',
           cargo: 'Diseñadora instruccional',
-          centro: 'Regional Distrito Capital – Centro de gestión Industrial',
+          centro: 'Centro de gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Revisora metodológica y pedagógica',
           centro:
-            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -293,25 +292,31 @@ export default {
           nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Mary Jeans Palacio',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -322,19 +327,19 @@ export default {
           nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

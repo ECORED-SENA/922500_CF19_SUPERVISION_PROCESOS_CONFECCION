@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 2
-      h1 Metodología Lean Six Sigma
-    p(data-aos="fade-down") Lean Six Sigma acoge la metodología Six Sigma, una combinación de herramientas Lean Manufacturing y estadísticas. Los proyectos que acogen esta filosofía se basan en un procedimiento estructurado para solucionar problemas.
+      h1 Metodología #[i Lean Six Sigma]
+    p(data-aos="fade-down") #[i Lean Six Sigma] acoge la metodología #[i Six Sigma], una combinación de herramientas #[i Lean Manufacturing] y estadísticas. Los proyectos que acogen esta filosofía se basan en un procedimiento estructurado para solucionar problemas.
 
     p(data-aos="fade-down").mb-5 La siguiente figura le muestra los pasos de aplicación de esta metodología:
 
@@ -14,8 +14,8 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span Pasos para implementar Lean Six Sigma      
-        img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/7.svg', alt='')
+          span Pasos para implementar #[i Lean Six Sigma]      
+        img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/7.svg', alt='Se muestran cinco puntos que enuncian los pasos para implementar Lean Six Sigma, los cuales son: Definir, medir, analizar, mejorar y controlar.')
         figcaption Nota: tomado de García, M. (2019).
 
     .row.justify-content-start.mb-3     
@@ -37,7 +37,7 @@
           .col-lg-4.my-3.p-0 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.svg', alt='')                 
           .col-lg-8.my-3.p-0
-            .bg4.p-3.h-100    
+            .bg4.p-3.h-100.j1    
               h4(data-aos="fade-down") ¡Atención!
               p(data-aos="fade-down").mb-0 Para esto es importante usar herramientas como un diagrama de flujo, un diagrama SIPOC y un plan de acción, a manera de cronograma, que facilite la identificación de actividades, tiempos y responsables. 
 
@@ -62,7 +62,7 @@
 
           li 
             i.fas.fa-tshirt.c1
-            p.mb-0 El diagrama SIPOC por sus siglas en ingles Supplier – Inputs- Process- Outputs – Customers, ayudará a realizar un análisis de Proveedores, Entradas, Procesos, Salidas y Clientes.
+            p.mb-0 El diagrama SIPOC por sus siglas en ingles #[i Supplier – Inputs- Process- Outputs – Customers], ayudará a realizar un análisis de Proveedores, Entradas, Procesos, Salidas y Clientes.
 
           li 
             i.fas.fa-tshirt.c1
@@ -75,7 +75,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span Ejemplo diagrama SIPOC  
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.svg', alt='Esquema que muestra un diagrama SIPOC de una empresa textil. Columna 1, los proveedores: clientes, proveedores de materia prima e insumos, proveedores de servicios y proveedores de mano de obra. Columna 2, las entradas: solicitudes de los clientes. Columna 3, los procesos aplicados a las prendas: diseños, cortes, confección, control de calidad y empaquetado, almacenamiento, distribución. Columna 4, las salidas: mermas de corte, prendas reprocesadas, prendas terminadas. Columna 5, los clientes: atención al cliente, recepción y compra de prendas.')
         figcaption Nota: adaptada de Crisóstomo y Sánchez (2018).
 
     .row.justify-content-start.mb-3     
@@ -127,15 +127,16 @@
               .row.justify-content-center
                 .col-md-11
                   h4.t1 Estado actual y flujo de material y de la información    
-                  p Dibujar el estado actual, identificando el flujo de material y de la información, en términos generales, se representará el flujo calculando indicadores claves del proceso como inventario en días, entre proceso y proceso, tiempo de ciclo, tiempo de alistamiento y eficiencia global entre otras.                       
+                  p Dibujar el estado actual, identificando el flujo de material y de la información, en términos generales, se representará el flujo calculando indicadores claves del proceso como inventario en días, entre proceso y proceso, tiempo de ciclo, tiempo de alistamiento y eficiencia global entre otras. 
+              .row.justify-content-center
+                .col-md-11
+                  h4.t1 Estado futuro  
+                  p Analizar y visualizar el estado futuro; en este paso se pretende validar cuáles podrían ser mejoras a realizar en el proceso. En el análisis se debe responder ¿Cuál es la capacidad del sistema de producción? ¿Cuáles son los cuellos de botella del proceso? ¿Cuál es la tasa de compra del cliente? ¿Cuál es la capacidad disponible y cuál su utilización? ¿Cuáles son las restricciones del proceso? ¿Estas son internas o externas? ¿Cómo podemos mejorar el proceso para cumplir con los objetivos del negocio?                                         
               .row.justify-content-center
                 .col-md-11
                   h4.t1 Mejoras   
                   p Por último, dibujar el estado futuro con las posibles mejoras. Se requiere experiencia en la implementación de herramientas Lean como #[b Kanban, Kaizen y SMED], entre otras.
-              .row.justify-content-center
-                .col-md-11
-                  h4.t1 Estado futuro  
-                  p Analizar y visualizar el estado futuro; en este paso se pretende validar cuáles podrían ser mejoras a realizar en el proceso. En el análisis se debe responder ¿Cuál es la capacidad del sistema de producción? ¿Cuáles son los cuellos de botella del proceso? ¿Cuál es la tasa de compra del cliente? ¿Cuál es la capacidad disponible y cuál su utilización? ¿Cuáles son las restricciones del proceso? ¿Estas son internas o externas? ¿Cómo podemos mejorar el proceso para cumplir con los objetivos del negocio? 
+
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-7.my-3
@@ -165,7 +166,7 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.
       span  Ejemplo de Hoja de Verificación en Auditoria de Control de Calidad     
-    img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/15.png', alt='') 
+    img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/15.png', alt='Este es un formato con diferentes campos para llevar registro de los aspectos clave de la auditoría de control de calidad, tales como: telas, insumos, trazos y cortes, tallas, diseño y patronaje, entre otros aspectos posibles por auditar. El formato incluye campos para registrar los resultados de la auditoría como defectos de maquinaria, defectos de patrones, calibración. Incluye, finalmente, campos para observaciones y recomendaciones generales y visto bueno del supervisor.') 
     p(data-aos="fade-down").my-5 Por otro lado, se puede emplear la herramienta FMEA por sus siglas en inglés Failure Modes Effects Analysis, el mismo que permite priorizar las posibles fuentes de variación, variaciones, fallas, defectos en el producto o proceso.
 
     .bg7
@@ -180,21 +181,21 @@
 
       .row.justify-content-center.align-items-center.mb-4           
         .col-lg-7.my-3
-          p(data-aos="fade-down") En este paso se pretende proponer un plan de acción con la selección y desarrollo de las mejoras orientadas a eliminar o mitigar las causas raíz de los problemas encontrados; aquí se pretende hacer uso de las herramientas #[b Lean Manufacturing].
+          p(data-aos="fade-down") En este paso se pretende proponer un plan de acción con la selección y desarrollo de las mejoras orientadas a eliminar o mitigar las causas raíz de los problemas encontrados; aquí se pretende hacer uso de las herramientas #[b #[i Lean Manufacturing]].
           .bg6.p-4.mb-3
-            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas lean que bajo #[b Lean Six Sigma] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
+            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas lean que bajo #[b #[i Lean Six Sigma]] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
           p(data-aos="fade-down") Es común proponer la herramienta debido a las ventajas que ofrece, sin embargo, en esta etapa la propuesta debe estar sustentada con una evaluación costo beneficio y de ahí la viabilidad de su aplicación. 
                     
         .col-lg-5.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/16.png', alt='')            
 
-      p.mb-5(data-aos="fade-down") La siguiente figura detalla las herramientas de la metodología Lean Manufacturing:     
+      p.mb-5(data-aos="fade-down") La siguiente figura detalla las herramientas de la metodología #[i Lean Manufacturing]:     
       .row.justify-content-center.align-items-center.mb-5           
         .col-lg-6
           .titulo-sexto.color-acento-contenido
             h5 Figura 4.
-            span  Herramientas Lean Manufacturing   
-          img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')
+            span  Herramientas #[i Lean Manufacturing]   
+          img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='Esquema que enuncia las 8 herramientas de la metodología Lean Manufacturing, la cuales son: Herramienta TPM Herramienta 5S Herramienta SMED Herramienta KANBAN Herramienta KAIZEN Herramienta HEIJUNKA Herramienta JIDOKA Herramienta JIT')
           figcaption.bgw Nota: adaptado de Sánchez M (2020).
 
     .row.justify-content-start.mb-3     
