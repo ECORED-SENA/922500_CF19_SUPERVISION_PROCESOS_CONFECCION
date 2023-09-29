@@ -12,7 +12,7 @@
         p(data-aos="fade-down") Entre los objetivos de las empresas en general está la reducción de costos, hacer los procesos más productivos, aumentar los niveles de calidad y la variedad de los productos para, así mismo, aumentar la lista de clientes y el nivel de ventas; esto se puede resolver mediante el uso de la metodología #[b.t1 #[i Lean Six Sigma]]. Esta no es más que la fusión de dos metodologías que se concibieron por aparte pero que ha generado unos resultados inesperados.                   
       .col-lg-4.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='') 
-    p(data-aos="fade-down").text-center.mb-5 Las dos metodologías que configuran la neciente #[i Lean Six Sigma], son:
+    p(data-aos="fade-down").text-center.mb-5 Las dos metodologías que configuran la naciente #[i Lean Six Sigma], son:
 
     .bg1(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-4.pt-3           
@@ -29,13 +29,13 @@
               .row.justify-content-center
                 .col-md-11
                   h4.t1 #[i Six Sigma] 
-                  p Tiene unos orígenes muy distintos: en 1979 Robert Galvin CEO de Motorola en una entrevista dijo literalmente “Nuestra calidad apesta”, lo que esto representó para la bolsa de Estados Unidos no tiene precedente, a raíz de esto Michael Harris un militar retirado, con una maestría en Control Estadístico de Procesos propone implementar procesos de control en Motorola para aumentar su calidad, al iniciar la meta era aumentar su calidad a un nivel 4 Sigma, que equivale a 6200 defectos por cada 1000000 de oportunidades, sin embargo esta meta en 10 años sobrepaso los limites aumentando 100 veces más su nivel de calidad, hasta lograr niveles 6 Sigma esto equivale a 3,4 defectos por cada millón de oportunidades, estos logros los hicieron acreedores al premio Nacional de Calidad Malcolm Baldrige, por lo cual ahorro millones de dólares por conceptos de calidad, tal fue el éxito que muchas empresas comenzaron a implementar este modelo entre ellas General Electric. 
+                  p Tiene unos orígenes muy distintos: en 1979 Robert Galvin CEO de Motorola en una entrevista dijo literalmente “Nuestra calidad apesta”, lo que esto representó para la bolsa de Estados Unidos no tiene precedente, a raíz de esto Michael Harris un militar retirado, con una maestría en Control Estadístico de Procesos propone implementar procesos de control en Motorola para aumentar su calidad, al iniciar la meta era aumentar su calidad a un nivel 4 Sigma, que equivale a 6200 defectos por cada 1000000 de oportunidades, sin embargo, esta meta en 10 años sobrepasó los límites aumentando 100 veces más su nivel de calidad, hasta lograr niveles 6 Sigma esto equivale a 3,4 defectos por cada millón de oportunidades, estos logros los hicieron acreedores al premio Nacional de Calidad Malcolm Baldrige, por lo cual ahorró millones de dólares por conceptos de calidad, tal fue el éxito que muchas empresas comenzaron a implementar este modelo entre ellas General Electric. 
 
     .row.justify-content-center.mb-4          
       .col-lg-9.my-3.up.order-1
         .bg2.p-4.h-100.j1
           h4(data-aos="fade-down") ¿Por qué #[i Lean] y #[i Six Sigma] se llevan tan bien? 
-          p(data-aos="fade-down").mb-0 Pues Lean se dedica a entregar con menor costo y a tiempo y #[i Six Sigma] ayuda a que lo anterior no afecte la calidad.                
+          p(data-aos="fade-down").mb-0 Pues #[i Lean] se dedica a entregar con menor costo y a tiempo y #[i Six Sigma] ayuda a que lo anterior no afecte la calidad.                
       .col-lg-3.my-3.up.order-lg-2 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.svg', alt='')   
 
@@ -73,7 +73,7 @@
               p.mb-0 Es la unidad básica de medida para el cálculo de la desviación. Puede ser un producto, un lote o #[i batch], una muestra, transacción o un servicio prestado a clientes internos o externos.  
           .row.justify-content-center(titulo="Oportunidades de defecto")
             .col-md-12
-              p.mb-0 Se trata toda aquella posibilidad circunstancial, infraestructural o de operación, que pueda generar un defecto.  
+              p.mb-0 Se trata de toda aquella posibilidad circunstancial, infraestructural o de operación, que pueda generar un defecto.  
           .row.justify-content-center(titulo="Rendimiento")
             .col-md-12
               p.mb-0 Supone todo resultado positivo o ganancia que se obtenga de las operaciones y de los procesos productivos.  

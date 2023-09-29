@@ -110,9 +110,9 @@ export default {
   complementario: [
     {
       tema: 'Metodología <i>Lean Six Sigma</i>',
-      referencia: 'Torres, J. (2020). Histograma.',
+      referencia: 'Torres, J. (2020). Histogramas.',
       tipo: 'Video YouTube',
-      link: 'https://www.youtube.com/watch?v=lyrg9Sh5rfU',
+      link: 'https://www.youtube.com/watch?v=ECJD4yH3xvI',
     },
     {
       tema: 'Metodología <i>Lean Six Sigma</i>',
@@ -156,7 +156,7 @@ export default {
     {
       tema: 'Tableros de control',
       referencia:
-        'Microsoft Excel a todo nivel (2018) Dashboard en Excel? | ¿Qué es un Dashboard? ¿Cómo se hace en Excel? Tableros interactivos | Parte 1.',
+        'Microsoft Excel a todo nivel (2018) ¿Dashboard en Excel? | ¿Qué es un Dashboard? ¿Cómo se hace en Excel? Tableros interactivos | Parte 1.',
       tipo: 'Video YouTube',
       link: 'https://www.youtube.com/watch?v=_E5FIOwFz4w',
     },
@@ -190,7 +190,7 @@ export default {
     {
       termino: 'Kanban',
       significado:
-        'se define como «un sistema de producción altamente efectivo y eficiente, ha contribuido a generar un panorama manufacturero óptimo y competitivo.',
+        'se define como «un sistema de producción altamente efectivo y eficiente, ha contribuido a generar un panorama manufacturero óptimo y competitivo».',
     },
     {
       termino: '<i>Lead Time</i>',
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'SMED',
       significado:
-        'SMED (<i>Single Minute Exchange of Die</i>, o cambio de matriz en menos de 10 minutos) es una técnica que permite grandes reducciones en los tiempos de <i>set up</i> (tiempo entre última pieza buena de lote anterior y primera buena del siguiente), permitiendo trabajar en lotes más pequeños.',
+        ' SMED (<i>Single Minute Exchange of Die</i>, o cambio de matriz en menos de 10 minutos) es una técnica que permite grandes reducciones en los tiempos de <i>set up</i> (tiempo entre última pieza buena de lote anterior y primera buena del siguiente), permitiendo trabajar en lotes más pequeños.',
     },
   ],
   referencias: [
@@ -211,12 +211,12 @@ export default {
     },
     {
       referencia:
-        'Crisóstomo, M., & Sánchez, A (2018). Propuesta de mejora en la confección de ropa de vestir femenina de una pyme mediante la aplicación de la metodología lean six sigma y herramientas VSM,5S y la distribución de planta [Tesis Pontificia Universidad Católica del Perú].',
+        'Crisóstomo, M., & Sánchez, A (2018). Propuesta de mejora en la confección de ropa de vestir femenina de una PYME mediante la aplicación de la metodología Lean six sigma y herramientas VSM, 5S’S y distribución de la planta [Tesis Pontificia Universidad Católica del Perú].',
       link: 'http://hdl.handle.net/20.500.12404/13982',
     },
     {
       referencia:
-        'García, M (2019) . Herramientas del Lean Six Sigma: la metodología para la excelencia operacional APD.ES',
+        'García, M (2019). Herramientas del Lean Six Sigma: la metodología para la excelencia operacional APD.ES',
       link: 'https://www.apd.es/herramientas-del-lean-six-sigma/',
     },
     {
@@ -233,7 +233,7 @@ export default {
     {
       referencia:
         'Sánchez M. (2020 7 agosto). Las 25 herramientas LEAN [Web log post]. Todo proyectos.com',
-      link: 'https://todoproyectos.com/?s=herramientas+lean+',
+      link: 'https://todoproyectos.blog/2020/08/07/las-25-herramientas-lean/',
     },
   ],
   creditos: [

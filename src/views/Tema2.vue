@@ -62,7 +62,7 @@
 
           li 
             i.fas.fa-tshirt.c1
-            p.mb-0 El diagrama SIPOC por sus siglas en ingles #[i Supplier – Inputs- Process- Outputs – Customers], ayudará a realizar un análisis de Proveedores, Entradas, Procesos, Salidas y Clientes.
+            p.mb-0 El diagrama SIPOC por sus siglas en inglés #[i Supplier – Inputs- Process- Outputs – Customers], ayudará a realizar un análisis de Proveedores, Entradas, Procesos, Salidas y Clientes.
 
           li 
             i.fas.fa-tshirt.c1
@@ -135,12 +135,12 @@
               .row.justify-content-center
                 .col-md-11
                   h4.t1 Mejoras   
-                  p Por último, dibujar el estado futuro con las posibles mejoras. Se requiere experiencia en la implementación de herramientas Lean como #[b Kanban, Kaizen y SMED], entre otras.
+                  p Por último, dibujar el estado futuro con las posibles mejoras. Se requiere experiencia en la implementación de herramientas #[i Lean] como #[b Kanban, Kaizen y SMED], entre otras.
 
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-7.my-3
-        p(data-aos="fade-down") En el mapa de flujo de valor se puede observar dónde finaliza el flujo en la parte superior derecha. Generalmente, esta parte del diagrama es de donde se relaciona la cantidad de producción entregada mensualmente (en este caso 480 unidades), también cómo se relaciona con la caja de control de producción a través de un flujo de información que se realiza mediante los datos de pedidos o pronósticos que generan las compras de las redes sociales. Acto seguido se mostrará también como se enlaza esta información con los requerimientos enviadas al proveedor de materia prima, en este caso a través llamada y correo electrónico.
+        p(data-aos="fade-down") En el mapa de flujo de valor se puede observar dónde finaliza el flujo en la parte superior derecha. Generalmente, esta parte del diagrama es de donde se relaciona la cantidad de producción entregada mensualmente (en este caso 480 unidades), también cómo se relaciona con la caja de control de producción a través de un flujo de información que se realiza mediante los datos de pedidos o pronósticos que generan las compras de las redes sociales. Acto seguido se mostrará también cómo se enlaza esta información con los requerimientos enviados al proveedor de materia prima, en este caso a través llamada y correo electrónico.
         .row.justify-content-center.align-items-center.mb-3.bg5.p-0           
           .col-auto.p-0.pb-3
             img(data-aos="zoom-in")(src='@/assets/curso/temas/13.svg', alt='')
@@ -166,8 +166,8 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.
       span  Ejemplo de Hoja de Verificación en Auditoria de Control de Calidad     
-    img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/15.png', alt='Este es un formato con diferentes campos para llevar registro de los aspectos clave de la auditoría de control de calidad, tales como: telas, insumos, trazos y cortes, tallas, diseño y patronaje, entre otros aspectos posibles por auditar. El formato incluye campos para registrar los resultados de la auditoría como defectos de maquinaria, defectos de patrones, calibración. Incluye, finalmente, campos para observaciones y recomendaciones generales y visto bueno del supervisor.') 
-    p(data-aos="fade-down").my-5 Por otro lado, se puede emplear la herramienta FMEA por sus siglas en inglés Failure Modes Effects Analysis, el mismo que permite priorizar las posibles fuentes de variación, variaciones, fallas, defectos en el producto o proceso.
+    img.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/15.svg', alt='Este es un formato con diferentes campos para llevar registro de los aspectos clave de la auditoría de control de calidad, tales como: telas, insumos, trazos y cortes, tallas, diseño y patronaje, entre otros aspectos posibles por auditar. El formato incluye campos para registrar los resultados de la auditoría como defectos de maquinaria, defectos de patrones, calibración. Incluye, finalmente, campos para observaciones y recomendaciones generales y visto bueno del supervisor.') 
+    p(data-aos="fade-down").my-5 Por otro lado, se puede emplear la herramienta FMEA por sus siglas en inglés #[i Failure Modes Effects Analysis], el mismo que permite priorizar las posibles fuentes de variación, variaciones, fallas, defectos en el producto o proceso.
 
     .bg7
       .row.justify-content-start.mb-3     
@@ -183,7 +183,7 @@
         .col-lg-7.my-3
           p(data-aos="fade-down") En este paso se pretende proponer un plan de acción con la selección y desarrollo de las mejoras orientadas a eliminar o mitigar las causas raíz de los problemas encontrados; aquí se pretende hacer uso de las herramientas #[b #[i Lean Manufacturing]].
           .bg6.p-4.mb-3
-            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas lean que bajo #[b #[i Lean Six Sigma]] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
+            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas #[i lean] que bajo #[b #[i Lean Six Sigma]] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
           p(data-aos="fade-down") Es común proponer la herramienta debido a las ventajas que ofrece, sin embargo, en esta etapa la propuesta debe estar sustentada con una evaluación costo beneficio y de ahí la viabilidad de su aplicación. 
                     
         .col-lg-5.my-3

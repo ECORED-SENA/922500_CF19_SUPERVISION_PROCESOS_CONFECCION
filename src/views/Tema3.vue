@@ -74,10 +74,10 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")
           .row.justify-content-center(titulo="Nivel Estratégico")
             .col-md-12
-              p Estos están atados directamente a la planificación estratégica de la empresa y marcan el futuro que se espera. Por esta razón, están relacionados a la misión y visión establecida, la misión es el propósito de la empresa para existir y explica las razones por las cuales fue creada. La visión retrata lo que la organización quiere ser en el futuro. Un ejemplo de estos podría ser un indicador relacionado con las ventas de prendas de vestir, en donde el objetivo de este seria aumentar en un 15 %.         
+              p Estos están atados directamente a la planificación estratégica de la empresa y marcan el futuro que se espera. Por esta razón, están relacionados con la misión y visión establecida, la misión es el propósito de la empresa para existir y explica las razones por las cuales fue creada. La visión retrata lo que la organización quiere ser en el futuro. Un ejemplo de estos podría ser un indicador relacionado con las ventas de prendas de vestir, en donde el objetivo de este sería aumentar en un 15 %.         
           .row.justify-content-center(titulo="Nivel Táctico")
             .col-md-12
-              p Una vez que se sabe lo que la empresa quiere para los próximos 5 o 10 años, el siguiente paso es determinar cómo cada área contribuirá a lograr estos objetivos. La planificación táctica corresponde a un plan de acción que debe llevarse a cabo en un plazo de uno a tres años y debe estar completamente alineado con la planificación estratégica. Teniendo en cuenta el ejemplo anterior en donde se enmarcaba un objetivo estratégico sobre ventas, en este caso para aliñarse con este tendríamos que crear uno como la cantidad de locales comerciales para ofrecer los productos, así mismo el objetivo de este seria aumentarla. 
+              p Una vez que se sabe lo que la empresa quiere para los próximos 5 o 10 años, el siguiente paso es determinar cómo cada área contribuirá a lograr estos objetivos. La planificación táctica corresponde a un plan de acción que debe llevarse a cabo en un plazo de uno a tres años y debe estar completamente alineado con la planificación estratégica. Teniendo en cuenta el ejemplo anterior en donde se enmarcaba un objetivo estratégico sobre ventas, en este caso para aliñarse con este tendríamos que crear uno como la cantidad de locales comerciales para ofrecer los productos, así mismo el objetivo de este sería aumentarla. 
           .row.justify-content-center(titulo="Nivel Operativo")
             .col-md-12
               p Estos están estrechamente vinculados a los procesos y la operación de la empresa en su conjunto. Los indicadores operativos se asignan a los equipos de trabajo o a las personas directamente, involucrando a cada empleado de la empresa de tal manera que contribuyan activamente a los objetivos estratégicos de la organización, para seguir con nuestro ejemplo en este caso propondremos un indicador operativo como el número de productos fabricados por módulo o por persona, en donde también tendría como objetivo aumentar, para asegurar el cumplimiento de los indicadores tácticos y estratégicos.
@@ -137,7 +137,7 @@
                   i.fas.fa-tshirt.c1
                   p.mb-0 Disponibilidad de máquinas. 
 
-              p En esta clasificación dentro de la planta de producción está el indicador de rendimiento, esta métrica permite medir que tanto se entregó, pero también que tanto se entregó bien, en buenas condiciones, es decir no solo mide cuanto recurso de tiempo se invirtió sino también si cumplió realmente con el objetivo.   
+              p En esta clasificación dentro de la planta de producción está el indicador de rendimiento, esta métrica permite medir qué tanto se entregó, pero también qué tanto se entregó bien, en buenas condiciones, es decir, no solo mide cuánto recurso de tiempo se invirtió, sino también si cumplió realmente con el objetivo.   
           .row.justify-content-center(titulo="De eficiencia")
             .col-md-12
               p Una definición de eficiencia es el logro de un objetivo al menor costo unitario posible. En este caso estamos buscando un uso óptimo de los recursos disponibles para lograr los objetivos deseados. Algunos ejemplos de este tipo de indicador son:
@@ -169,21 +169,19 @@
                 th Descripción
             tbody
               tr
-                td(rowspan='4')
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg', alt='Fórmula de eficiencia: eficiencia es igual a unidades producidas, sobre unidades programadas, por cien.')                 
+                td(rowspan='3')
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='Fórmula de eficiencia: eficiencia es igual a unidades producidas, sobre unidades programadas, por cien.')                 
 
                 td.w-80 Materiales
-                td(rowspan='4') Dentro de la planta podemos ver diferentes mediciones, a nivel de planta, a nivel de producto, a nivel de módulo o línea, e incluso por operario.
+                td(rowspan='3') Dentro de la planta podemos ver diferentes mediciones, a nivel de planta, a nivel de producto, a nivel de módulo o línea, e incluso por operario.
               tr
                 td.w-80 Maquinaria
               tr
-                td.w-80 Medios 
-              tr
-                td.w-80 Logísticos
+                td.w-80 Medios Logísticos 
 
               tr
                 td(rowspan='5')
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='Fórmula de eficacia: eficacia es igual a unidades producidas aceptadas, sobre unidades programadas, por cien.')                 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg', alt='Fórmula de eficacia: eficacia es igual a unidades producidas aceptadas, sobre unidades programadas, por cien.')                 
 
                 td.w-80 Calidad
                 td(rowspan='5')
@@ -242,32 +240,32 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.png', alt='')
       .col-lg-8.my-3(data-aos="fade-left")       
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")
-          .row.justify-content-center(titulo="Eficiencia E%")
+          .row.justify-content-center(titulo="Eficiencia E %")
             .col-md-12
               p Es la medida del aprovechamiento de los recursos de una empresa. Para calcularla, se utiliza la siguiente fórmula: 
 
               h5 Eficiencia de la planta = Eficiencia Estándar × Eficiencia Fuera de estándar × Grado de asistencia
 
-              p En este caso la multiplicación de los tres factores permite identificar que variable afecta en mayor medida la eficiencia global de la planta y así mismo tomar decisiones al respecto. 
-          .row.justify-content-center(titulo="Eficiencia en Estándar – E.E%")
+              p En este caso, la multiplicación de los tres factores permite identificar qué variable afecta en mayor medida la eficiencia global de la planta y así mismo tomar decisiones al respecto. 
+          .row.justify-content-center(titulo="Eficiencia en Estándar – E.E %")
             .col-md-12
               p Es el rendimiento del operario o del módulo; mide el grado en que éste aprovecha el tiempo en condiciones normales o los minutos en estándar. Es responsabilidad del departamento de ingeniería diseñar métodos que permitan optimizar el tiempo de trabajo. 
 
-              p Para calcularla se aplica la formula: 
+              p Para calcularla se aplica la fórmula: 
 
-              h5 Eficiencia en Estándar %=Minutos Estándares Producidos/ Minutos en Estándar ×100              
+              h5 Eficiencia en Estándar % = Minutos Estándares Producidos / Minutos en Estándar × 100              
           .row.justify-content-center(titulo="Minutos Estándar Producidos – M.E.P")
             .col-md-12
               p Son los minutos producidos, es la producción realizada por el operario o por el módulo en minutos. 
               p Calcular los minutos estándares producidos:
-              h5 Minutos Estándares Producidos=Tiempo Estándar × Unidades Producidas 
+              h5 Minutos Estándares Producidos = Tiempo Estándar × Unidades Producidas 
           .row.justify-content-center(titulo="Minutos en Estándar –M.E")
             .col-md-12
               p Son los minutos en condiciones normales que el operario, o el módulo, no tuvo problemas fuera de estándar como daño de máquina, falta de hilos o trabajo, inasistencia, etc.
 
               p Para  calcularlo se utiliza la fórmula: 
 
-              h5 Minutos en Estándar = Minutos Teóricos - Minutos de Ausentismo- Minutos Fuera de Estándar  
+              h5 Minutos en Estándar = Minutos Teóricos - Minutos de Ausentismo - Minutos Fuera de Estándar  
           .row.justify-content-center(titulo="Minutos Fuera de Estándar – M.F.E")
             .col-md-12
               p Son los minutos perdidos por el operario por problemas ajenos a su voluntad, como por ejemplo daños de máquina, falta de programa o trabajo, corte de fluido eléctrico, etc. 
@@ -276,13 +274,13 @@
     .row.justify-content-center.align-items-center
       .col-lg-8.my-3.order-1(data-aos="fade-left")       
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")
-          .row.justify-content-center(titulo="Eficiencia en Estándar –Eficiencia Fuera de Estándar - E.F.E% E.E%")
+          .row.justify-content-center(titulo="Eficiencia en Estándar –Eficiencia Fuera de Estándar - E.F.E % E.E %")
             .col-md-12
               p Es la eficiencia de los mandos medios del departamento de producción. Mide el grado en que el personal de producción mantiene ocupado y trabajando bajo condiciones normales al personal operativo.
 
               p Para calcular la Eficiencia Fuera de Estándar: 
 
-              h5 Eficiencia fuera de Estándar = (1-(Minutos fuera de Estándar/ Minutos Presenciales)) × 100
+              h5 Eficiencia fuera de Estándar = (1- (Minutos fuera de Estándar / Minutos Presenciales)) × 100
           .row.justify-content-center(titulo="Minutos Presenciales – M.P")
             .col-md-12
               p Son los minutos que efectivamente estuvo el operario en la planta, o para el módulo, la suma de los minutos de cada uno de sus componentes.
@@ -293,14 +291,14 @@
           .row.justify-content-center(titulo="Minutos Teóricos – M.T")
             .col-md-12
               p Son los minutos instalados. Son los minutos que teóricamente pueden trabajarse en la empresa. Son los minutos de la jornada laboral por el número de operarios.
-              h5 Minutos Teóricos = Horas Laborales × 60 minutos × Numero de Operarios  
+              h5 Minutos Teóricos = Horas Laborales × 60 minutos × Número de Operarios  
           .row.justify-content-center(titulo="Grado de Asistencia – G.A")
             .col-md-12
               p Mide el porcentaje de asistencia del personal operativo de la planta productiva. 
 
               p Para calcular el Grado de Asistencia:
 
-              h5 Grado de Asistencia = (Minutos presenciales/ Minutos teóricos) × 100 
+              h5 Grado de Asistencia = (Minutos presenciales / Minutos teóricos) × 100 
       .col-lg-4.my-3.order-lg-2
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/28.png', alt='')                                                                        
 </template>
