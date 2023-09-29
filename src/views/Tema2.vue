@@ -183,7 +183,7 @@
         .col-lg-7.my-3
           p(data-aos="fade-down") En este paso se pretende proponer un plan de acción con la selección y desarrollo de las mejoras orientadas a eliminar o mitigar las causas raíz de los problemas encontrados; aquí se pretende hacer uso de las herramientas #[b #[i Lean Manufacturing]].
           .bg6.p-4.mb-3
-            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas #[i lean] que bajo #[b #[i Lean Six Sigma]] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
+            p(data-aos="fade-down").mb-0 En este punto de la implementación de la metodología se deberá describir las actividades detalladamente para llevar a cabo las herramientas seleccionadas, las cuales deben ser coherentes con las oportunidades de mejora identificadas. Dentro de la industria se pueden ver muchas intenciones de aplicación de herramientas #[i Lean] que bajo #[b #[i Lean Six Sigma]] dan como resultado mayor resultado debido al seguimiento y aplicación herramientas estadísticas.  
           p(data-aos="fade-down") Es común proponer la herramienta debido a las ventajas que ofrece, sin embargo, en esta etapa la propuesta debe estar sustentada con una evaluación costo beneficio y de ahí la viabilidad de su aplicación. 
                     
         .col-lg-5.my-3
